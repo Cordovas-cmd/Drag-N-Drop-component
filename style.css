@@ -7,10 +7,31 @@
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;
+  background-color: steelblue;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.empty {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 3px black;
+  background: white;
+}
+
+.fill {
+  background-image: url('https://source.unsplash.com/random/150x150');
+  height: 140px;
+  width: 145px;
+  cursor: pointer;
+}
+
+@media(max-width: 800px) {
+ body{
+   flex-direction: column;
+ } 
 }
