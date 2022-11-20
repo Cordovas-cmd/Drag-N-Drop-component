@@ -26,7 +26,7 @@ body {
 /* Box background styles. */
 .fill {
   background-image: url('https://source.unsplash.com/random/150x150');
-  height: 140px;
+  height: 145px;
   width: 145px;
   cursor: pointer;
 }
@@ -43,8 +43,10 @@ border-color: white;
 border-style: dashed;
 }
 
+
 @media(max-width: 800px) {
- body{
+ 
+  body {
    flex-direction: column;
  } 
 }
