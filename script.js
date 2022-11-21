@@ -46,3 +46,6 @@ function dragDrop() {
     this.append(fill)
    
 }
+
+
+// TODO: Need to add some coee to run the random image generator more than just once or replace the first index of the node list wiht a new image after I drag the first one.
